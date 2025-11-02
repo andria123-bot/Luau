@@ -1,0 +1,77 @@
+1. Instance Manipulation
+Instance.new(className, parent) → Creates a new instance.
+Destroy() → Removes an instance from the game.
+FindFirstChild(name) → Returns the first child with the given name.
+FindFirstChildOfClass(className) → Finds the first child of a specific class.
+GetChildren() → Returns an array of all children.
+GetDescendants() → Returns an array of all descendants.
+IsA(className) → Checks if an instance is of a specific class.
+Clone() → Duplicates an instance.
+Parent → Sets or gets the parent of an instance.
+2. Player & Character Handling
+Players:GetPlayers() → Returns a table of all players.
+Players:GetPlayerFromCharacter(character) → Gets the player object from a character model.
+Players:GetPlayerFromUserId(userId) → Gets the player by UserId.
+Character:FindFirstChild("Humanoid") → Finds the Humanoid in a character model.
+Humanoid:MoveTo(position) → Moves the character to a specific position.
+Humanoid:TakeDamage(amount) → Applies damage to the character.
+Humanoid:ChangeState(state) → Forces the humanoid into a state.
+3. CFrame & Positioning
+CFrame.new(x, y, z) → Creates a new CFrame.
+CFrame.Angles(rx, ry, rz) → Creates a rotation matrix.
+CFrame:ToWorldSpace(cf) → Converts local space to world space.
+CFrame:ToObjectSpace(cf) → Converts world space to local space.
+Vector3.new(x, y, z) → Creates a 3D position.
+4. Events & Connections
+Instance.Touched:Connect(function(hit)) → Detects when an object is touched.
+Instance.AncestryChanged:Connect(function(child, parent)) → Detects when an object's parent changes.
+Instance.ChildAdded:Connect(function(child)) → Fires when a new child is added.
+Instance.ChildRemoved:Connect(function(child)) → Fires when a child is removed.
+BindableEvent:Fire() → Triggers a BindableEvent.
+RemoteEvent:FireClient(player, ...) → Sends a signal to a specific player.
+RemoteEvent:FireAllClients(...) → Sends a signal to all clients.
+RemoteEvent.OnServerEvent:Connect(function(player, ...)) → Listens for client signals.
+RemoteFunction.OnServerInvoke → Used for client-server communication with return values.
+5. User Input Handling
+UserInputService.InputBegan:Connect(function(input, gameProcessed)) → Detects when a key/mouse button is pressed.
+UserInputService.InputEnded:Connect(function(input, gameProcessed)) → Detects when a key/mouse button is released.
+UserInputService.IsKeyDown(Enum.KeyCode.KEY) → Checks if a key is pressed.
+ContextActionService:BindAction("ActionName", function, false, Enum.KeyCode.KEY) → Binds an action to an input.
+6. GUI & Tweening
+TweenService:Create(instance, tweenInfo, {property = value}) → Creates a tween.
+Tween:Play() → Plays a tween animation.
+GuiObject.MouseEnter:Connect(function()) → Detects when the mouse enters a GUI.
+GuiObject.MouseLeave:Connect(function()) → Detects when the mouse leaves a GUI.
+GuiObject.Activated:Connect(function()) → Detects when a GUI button is clicked.
+7. Sound Management
+Sound:Play() → Plays a sound.
+Sound:Pause() → Pauses a sound.
+Sound:Stop() → Stops a sound.
+Sound.PlaybackSpeed → Adjusts the playback speed.
+8. Physics & Constraints
+BasePart:SetNetworkOwner(player) → Sets the network owner of a part.
+BasePart.Velocity → Sets the velocity of a part.
+BasePart.AssemblyLinearVelocity → Adjusts the linear velocity of an assembly.
+BasePart:ApplyImpulse(Vector3.new(x, y, z)) → Applies an impulse to a part.
+BasePart:ApplyAngularImpulse(Vector3.new(x, y, z)) → Applies an angular impulse.
+9. Datastore & Saving Data
+DataStoreService:GetDataStore("StoreName") → Retrieves a DataStore.
+DataStore:SetAsync(key, value) → Saves data to a key.
+DataStore:GetAsync(key) → Loads data from a key.
+DataStore:RemoveAsync(key) → Removes data.
+DataStore:UpdateAsync(key, function(value)) → Updates stored data safely.
+10. Pathfinding & AI
+PathfindingService:CreatePath({AgentRadius = X, AgentHeight = Y}) → Creates a new path.
+Path:ComputeAsync(start, goal) → Computes a path between two points.
+Path:GetWaypoints() → Gets the waypoints for a computed path.
+Humanoid:MoveTo(position) → Moves a humanoid to a position.
+Humanoid.MoveToFinished:Wait() → Waits until movement is complete.
+11. Networking & FilteringEnabled
+RemoteEvent:FireServer(...) → Sends data from client to server.
+RemoteEvent.OnClientEvent:Connect(function(...)) → Receives server signals.
+RemoteFunction.OnClientInvoke → Handles server-to-client function calls.
+12. Lighting & Environment
+Lighting.Brightness → Controls overall brightness.
+Lighting.FogEnd → Adjusts the fog distance.
+Lighting.TimeOfDay → Changes the in-game time.
+Lighting.ClockTime → Directly changes the time.

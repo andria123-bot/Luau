@@ -1,0 +1,100 @@
+Roblox Studio Development Guide
+1. Introduction to Roblox Studio
+Overview of Roblox Studio interface
+Explorer, Properties, and Toolbox panels
+Baseplate and templates
+Setting up your first game
+Creating a new project
+Saving and publishing your game
+2. Understanding Roblox Game Elements
+Parts and their properties
+Anchoring, collisions, and materials
+Manipulating size, position, and orientation
+Models and groups
+Creating and organizing models
+Lighting, sound, and effects
+Adding and customizing lights and sounds
+Using particle effects for visual enhancements
+3. Scripting Basics with Lua
+Introduction to Lua programming
+Variables, data types, and operators
+Loops and conditionals (if-else, for, while)
+Functions and events
+Scripting your first interactive object
+Adding a Script or LocalScript
+Making a part change color on touch
+4. Player Interaction
+User interface (UI) basics
+Creating GUIs (ScreenGui, TextLabel, Button)
+Connecting GUIs to scripts
+Tool creation
+Basic tools (e.g., swords, guns)
+Tool activation scripts
+Player input
+Using mouse and keyboard input
+5. Advanced Scripting and Game Mechanics
+Working with events
+PlayerAdded and PlayerRemoving events
+Bindable and Remote events for communication
+Game mechanics
+Health and damage systems
+Team management (Teams service)
+Creating leaderboards (Points and stats tracking)
+6. Building Worlds
+Terrain editor
+Creating mountains, rivers, and landscapes
+Using free models and assets
+Best practices for importing assets
+Avoiding malicious scripts in free models
+Optimizing the environment
+Reducing lag with efficient builds and scripts
+7. Multiplayer and Networking
+Roblox client-server model
+Understanding LocalScripts vs Scripts
+Replication and FilteringEnabled
+Remote events and functions
+Sending data between the client and server
+Anti-cheat mechanisms
+Basic strategies to prevent exploiting
+8. Monetization and Publishing
+Creating and selling game passes
+Using Developer Products
+Adding in-game currency
+Designing and scripting a shop system
+Publishing and advertising
+Game settings (privacy, permissions, and monetization)
+Running ads on Roblox
+9. Debugging and Testing
+Using the Output window
+Debugging common errors in Lua scripts
+Playtesting your game
+Solo vs multiplayer testing
+Gathering feedback and improving gameplay
+10. Advanced Topics (Optional)
+Animations
+Using the Animation Editor to create custom animations
+Implementing animations in-game (AnimationController)
+Advanced AI
+Pathfinding service for NPCs
+Basic enemy AI scripting
+Advanced mechanics
+Procedural generation (randomized maps)
+Advanced physics (constraints and vehicles)
+11. Project: Build Your Own Game
+Planning your game
+Writing a Game Design Document (GDD)
+Brainstorming unique mechanics
+Building and scripting the game
+Applying what you’ve learned
+Publishing and promoting your game
+Adding updates and keeping players engaged
+12. Community and Collaboration
+Using Roblox Developer Forum
+Collaborating with other developers
+Using Team Create
+Staying updated on new features
+Following Roblox Studio updates and API changes
+Additional Resources
+Roblox Developer Hub: Official documentation and tutorials
+YouTube Tutorials: Channels like AlvinBlox and TheDevKing
+Discord Communities: Roblox development-focused groups
