@@ -1,0 +1,1 @@
+game:GetService("Workspace"):WaitForChild("Camera").FieldOfView = 120
